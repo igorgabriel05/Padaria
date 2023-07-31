@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 a {
@@ -19,9 +19,9 @@ a {
 }
 
 a:hover{
-    background-color: bisque;
+    background-color: black;
     transition: .5s;
-    color: black;
+    color: white;
 }
 
 li {
@@ -30,7 +30,46 @@ li {
 }
 
 nav {
+    width: 100%;
     padding: 5px;
     background-color: white;
     border-bottom: #6b6b6b 2px solid;
+    position: fixed;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* .produto, .foto, .nome-produto, .descricao, .btn, .preco {
+    border: 1px red dotted;
+} */
+
+.foto img{
+    width: 280px;
+    border-radius: 5%;
+}
+
+.produto{
+    width: 300px;
+    height: 450px;
+    padding: .5em;
+    border-radius: 5%;
+}
+
+.nome-produto{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.produto:hover{
+    background-color: #ffc400;
+}
+
+.descricao{
+    height: 3em;
+}
+
+.preco{
+    height: 1.8em;
 }
