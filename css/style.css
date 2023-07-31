@@ -1,17 +1,36 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: antiquewhite;
 }
 
-a{
+a {
+    color: black;
+    font-size: 1.5rem;
     text-decoration: none;
+    padding: 4%;
+    line-height: 3rem;
+    transition: .5s;
+    font-weight: bold;
 }
 
-li{
+a:hover{
+    background-color: bisque;
+    transition: .5s;
+    color: black;
+}
+
+li {
     list-style-type: none;
     display: inline;
 }
 
-nav{
+nav {
+    padding: 5px;
     background-color: white;
-    border-bottom: #000000 2px;
+    border-bottom: #6b6b6b 2px solid;
 }
