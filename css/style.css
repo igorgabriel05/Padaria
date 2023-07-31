@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav{
+    background-color: white;
+    border-bottom: #000000 2px;
+}
