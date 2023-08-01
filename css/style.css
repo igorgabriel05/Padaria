@@ -13,6 +13,8 @@ nav{
     background-color: #eee;
     border-bottom: #ccc 1px solid;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
 }
 
 nav a{
@@ -33,6 +35,6 @@ nav li{
 }
 
 .banner img{
-    width: 80%;
+    width: 90%;
 }
 
