@@ -28,11 +28,13 @@ let listaProdutos = [
     }
 ];
 
-let divProdutos = document.getElementById('produtos');
+let divRow = document.createElement('div');
 
 if (listaProdutos.length > 0) {
     for (let i = 0; i < listaProdutos.length; i++) {
 
+        let divProdutos = document.getElementById('produtos');
+        
         let img = document.createElement('img');
         img.classList.add('img-produto');
         img.setAttribute('src', listaProdutos[i].imgProduto);
@@ -58,9 +60,9 @@ if (listaProdutos.length > 0) {
 
 
         let divCol = document.createElement('div');
-        divCol.classList.add('col-3');
+        divCol.classList.add('col-3', 'produto');
 
-        let divRow = document.createElement('div');
+        
         divRow.classList.add('row');
 
         divProdutos.appendChild(divRow)
